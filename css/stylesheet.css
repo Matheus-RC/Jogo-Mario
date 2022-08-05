@@ -7,9 +7,12 @@
 
 .game-board{
 	border: 1px solid #333;
+	opacity: 80%;
 	width: 80%;
 	height: 500px;
+	max-width: 900px;
 	border-radius: 20px;
+	top: 70px;
 	margin: 0 auto;
 	position:relative;
 	overflow: hidden;
@@ -19,22 +22,61 @@
 .cloud{
 	position:absolute;
 	width: 250px;
-	animation:  clouds-animation 10s infinite linear;
+	animation:  clouds-animation 7s infinite linear;
 }
+
 .placar{
 	position: absolute;
-	color: red;
+	color: #008000;
 	font-size: 50px;
 	font-weight: bolder;
 	left:90%;
 }
+.mensagem-game-over{
 
+	font-weight: bolder;
+	font-size: 25px;
+	position:absolute;
+	top: 50%;
+	left: 50%;
+	margin: -50px 0 0 -75px; 
+
+
+}
+.placar-final{
+
+	font-weight: bolder;
+	font-size: 40px;
+	position:absolute;
+	width: 100%;
+	top: 50%;
+	left: 50%;
+	margin: 1px 0 0 -5px; 
+	
+
+}
+.reload{
+	color: aliceblue;
+	font-size: 40px;
+	position:absolute;
+	width: 50px;
+	height: 50px;
+	top: 50%;
+	left: 50%;
+	margin: 60px 0 0 -20px; 	
+	transition: transform 0.1s;
+}
+.reload:hover{
+	cursor: pointer;
+	transform: scale(1.10);
+}
 .pipe{
 	position:absolute;
 	bottom: 0;
 	width: 75px;
+}
+.animation-pipe{
 	animation: pipe-animation 1.5s infinite linear;
-
 }
 .pipe-done{
 	position:absolute;
@@ -42,13 +84,28 @@
 	width: 75px;
 	left: 85px;
 }
+.foco{
+	opacity: 20%;
+}
+.game-over{
+	background: linear-gradient(rgb(255, 4, 0),white) ;
+	border: 1px solid #333;
+	width: 50%;
+	height: 250px;
+	max-width: 400px;
+	min-width: 300px;
+	border-radius: 20px;
+	top: -300px;
+	margin: auto auto;
+	position:relative;
+	opacity: 100%;
+	display: none;
 
+}
 .mario{
 	width: 100px;
 	bottom: 0;
 	position: absolute;
-
-	
 }
 .jump{
 	animation: jump 600ms ease-out;
@@ -56,13 +113,14 @@
 
 @keyframes clouds-animation {
 	from{
-		right: -75%;
+		right: -40%;
 	}
 	to{
 		right: 100%;
 	}
 	
 }
+
 @keyframes jump {
 	0% {
 		bottom: 0;
