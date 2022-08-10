@@ -19,6 +19,28 @@
 	border-bottom: 15px solid green;
 	background: linear-gradient(aqua,white) ;
 }
+.informacoes{
+	border: solid 2px;
+	border-radius: 5px;
+	width:80%;
+	height: 50px;
+	max-width: 900px;
+	margin: 0 auto;
+	position: relative;
+	top: 50px;
+	display: flex;
+	align-items: center;
+	justify-content: center
+	
+}
+.inf{
+	font-size: 25px;
+	
+}
+.seta{
+	width: 35px;
+	
+}
 .cloud{
 	position:absolute;
 	width: 250px;
