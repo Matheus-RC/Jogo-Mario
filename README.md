@@ -1,4 +1,4 @@
-# Jgo do Mario
+# Jogo do Mario
 [![NPM](https://img.shields.io/npm/l/react)](https://github.com/Matheus-RC/Jogo-Mario/blob/main/LICENSE) 
 
 # Sobre o projeto
