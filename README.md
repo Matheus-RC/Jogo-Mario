@@ -1,7 +1,28 @@
-# Jogo-Mario
-Jogo simples usando CSS, JS e HTML.
+# Jgo do Mario
+[![NPM](https://img.shields.io/npm/l/react)](https://github.com/Matheus-RC/Jogo-Mario/blob/main/LICENSE) 
 
-https://jogo-mario.netlify.app/
+# Sobre o projeto
 
-O objetivo do jogo é pular os obstaculos e pontuar. 
-Se o Mario colide com algum obstáculo o jogo para e você perde. 
+https://jogo-mario.netlify.app
+
+Um projeto de um jogo simples do Mario onde o objetivo é pular os obstaculos .
+
+# Tecnologias utilizadas
+
+- HTML
+- CSS
+- JS 
+
+## Implantação em produção
+- Netlify
+
+
+# Como executar o projeto
+Basta abrir o arquivo index.htlm pelo navegador.
+
+# Autor
+
+Matheus Ribeiro
+
+https://www.linkedin.com/in/matheus-r-cardoso
+
